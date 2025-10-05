@@ -13,6 +13,7 @@ export default defineNuxtConfig({
     families: [
       { name: 'Larken', provider: 'none' },
       { name: 'Lato', provider: 'none' },
+      { name: 'IBM Plex Sans', provider: 'none' },
     ]
   }
 })
