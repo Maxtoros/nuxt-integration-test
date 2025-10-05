@@ -1,0 +1,3 @@
+<template>
+    Partnership Section
+</template>

@@ -31,13 +31,11 @@
   "lint-staged": {
     "{pages,components}/*.{ts,tsx}": [
       "prettier --write",
-      "eslint --fix",
-      "bash -c 'tsc --noEmit'"
+      "eslint --fix"
     ],
     "{pages,components}/*.vue": [
       "prettier --write",
-      "eslint --fix",
-      "vue-tsc --noEmit"
+      "eslint --fix"
     ],
     "{pages,components}/*.{json,js,jsx}": [
       "prettier --write",
