@@ -39,20 +39,59 @@
   }
 }
 
-/* TODO: to move to the hero component ( specific to the gif and logo)*/
-
 @keyframes slide-up-diagonal {
   0% {
-    transform: translate(-63px, 25px) scale(0.8);
+    transform: translate(-15vw, -15vh) scale(0.8);
     opacity: 0;
   }
 
   100% {
-    transform: translate(-35px, -30px) scale(1);
+    transform: translate(-8vw, -18vh) scale(1);
     opacity: 1;
   }
 }
 
+@media (max-width: 1024px) {
+  @keyframes slide-up-diagonal {
+    0% {
+      transform: translate(-15vw, -9vh) scale(0.8);
+      opacity: 0;
+    }
+
+    100% {
+      transform: translate(-8vw, -12vh) scale(1);
+      opacity: 1;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  @keyframes slide-up-diagonal {
+    0% {
+      transform: translate(-13vw, 0vh) scale(0.8);
+      opacity: 0;
+    }
+
+    100% {
+      transform: translate(-6vw, -3vh) scale(1);
+      opacity: 1;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  @keyframes slide-up-diagonal {
+    0% {
+      transform: translate(-13vw, 0vh) scale(0.8);
+      opacity: 0;
+    }
+
+    100% {
+      transform: translate(-10vw, -3vh) scale(1);
+      opacity: 1;
+    }
+  }
+}
 .animate-fade-in {
   opacity: 0;
   animation: fade-in var(--duration-medium) ease-in-out forwards;
@@ -68,11 +107,9 @@
   animation: grow var(--duration-fast) ease-in-out forwards;
 }
 
-/* TODO: to move to the hero component ( specific to the gif and logo)*/
-
 .animate-slide-up-diagonal {
   opacity: 0;
-  animation: slide-up-diagonal var(--duration-medium) ease-in-out forwards;
+  animation: slide-up-diagonal var(--duration-medium) cubic-bezier(0.18, -0.01, 0.11, 0.98) forwards;
 }
 
 .delay-initial {
