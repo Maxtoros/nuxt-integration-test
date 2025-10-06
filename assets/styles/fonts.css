@@ -57,14 +57,21 @@
 
 @font-face {
   font-family: 'Lato';
-  src: url('~/public/fonts/Lato-Bold.ttf') format('ttf');
+  src: url('~/public/fonts/Lato-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('~/public/fonts/Lato-Bold.ttf') format('truetype');
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'IBM Plex Sans';
-  src: url('~/public/fonts/IBMPlexSans-Regular.ttf') format('ttf');
+  src: url('~/public/fonts/IBMPlexSans-Regular.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
 }
