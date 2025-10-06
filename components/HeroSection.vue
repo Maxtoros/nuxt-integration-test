@@ -14,13 +14,17 @@
           <NuxtImg src="/images/logo_jm.svg" alt="Jus Mundi Logo" style="width: 3rem" />
         </div>
 
-        <NuxtImg
-          preload
-          src="/images/case_bg.gif"
-          alt="Jus Mundi Logo"
+        <video
+          autoplay
+          muted
+          loop
+          playsinline
           class="logo jm-logo animate-fade-in delay-mid"
           style="position: relative; top: -12rem; left: 3rem"
-        />
+        >
+          <source src="/animations/case_bg.mp4" type="video/mp4" >
+          Your browser does not support the video tag.
+        </video>
       </div>
     </div>
     <div class="hero-right">
