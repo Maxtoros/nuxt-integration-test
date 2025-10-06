@@ -22,10 +22,4 @@ useSeoMeta({
   font-family: Larken, sans-serif;
   color: #2c2b2e;
 }
-
-@media (max-width: 768px) {
-  .landing-page {
-    padding: 16px;
-  }
-}
 </style>
