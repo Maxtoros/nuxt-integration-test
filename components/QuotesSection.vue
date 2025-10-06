@@ -80,24 +80,31 @@
   color: #2c2b2e;
 }
 
-@media (max-width: 768px) {
-  .quote-text {
-    font-size: 1rem;
-  }
-}
-
 .icon {
   display: block;
 }
+
 .quote-icon {
   width: 28px;
   height: 20px;
 }
+
 .opening-quote {
   transform: rotate(180deg);
   align-self: start;
 }
+
 .closing-quote {
   align-self: end;
+}
+
+@media (max-width: 768px) {
+  .quote-section {
+    padding: 60px 20px;
+  }
+
+  .quote-text {
+    font-size: 1rem;
+  }
 }
 </style>
