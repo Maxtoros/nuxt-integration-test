@@ -1,5 +1,5 @@
 <template>
-  <div class="hero-left">
+  <div class="hero-left col-6">
     <div class="container-logo-icc animate-grow">
       <NuxtImg src="/images/logo_icc.svg" alt="ICC Logo" class="logo logo-icc animate-fade-in delay-initial" />
     </div>

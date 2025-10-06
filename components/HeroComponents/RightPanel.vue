@@ -1,5 +1,5 @@
 <template>
-  <div class="hero-right">
+  <div class="hero-right col-6">
     <h1 class="hero-title animate-fade-in-up delay-initial">
       A Unique Partnership<br>
       for the Publication of<br>

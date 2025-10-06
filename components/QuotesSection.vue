@@ -1,6 +1,6 @@
 <template>
   <div class="grid">
-    <div class="row-6">
+    <div class="col-12">
       <section class="quote-section">
         <p class="quote-text">
           <NuxtImg

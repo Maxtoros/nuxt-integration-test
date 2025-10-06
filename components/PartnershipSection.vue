@@ -1,6 +1,6 @@
 <template>
   <div class="grid">
-    <div class="row-6">
+    <div class="col-12">
       <section class="why-section">
         <h2 class="why-title">Why this partnership?</h2>
         <p class="why-text">

@@ -1,6 +1,6 @@
 @import './fonts.css';
 
-@import './common.css';
+@import './layout.css';
 
 @import './animations/tokens.css';
 @import './animations/animations.css';
