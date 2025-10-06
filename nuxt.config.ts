@@ -14,6 +14,7 @@ export default defineNuxtConfig({
       { name: 'Larken', provider: 'none' },
       { name: 'Lato', provider: 'none' },
       { name: 'IBM Plex Sans', provider: 'none' },
+      { name: 'JUS MUNDI FONT', provider: 'none' },
     ]
   }
 })

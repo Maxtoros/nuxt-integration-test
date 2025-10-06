@@ -68,3 +68,10 @@
   font-weight: 400;
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'JUS MUNDI FONT';
+  src: url('~/public/fonts/icons.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}

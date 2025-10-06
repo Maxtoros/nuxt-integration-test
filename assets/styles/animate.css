@@ -1,0 +1,86 @@
+:root {
+  --duration-fast: 0.8s;
+  --duration-medium: 1s;
+  --delay-initial: var(--duration-fast);
+  --delay-mid: calc(var(--delay-initial) + var(--duration-medium));
+  --delay-late: calc(var(--delay-mid) + var(--duration-medium));
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes grow {
+  from {
+    transform: scale(0);
+    opacity: 0;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+    box-shadow: 0 0 128px rgba(0, 0, 0, 0.1);
+  }
+}
+
+/* TODO: to move to the hero component ( specific to the gif and logo)*/
+
+@keyframes slide-up-diagonal {
+  0% {
+    transform: translate(-63px, 25px) scale(0.8);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translate(-35px, -30px) scale(1);
+    opacity: 1;
+  }
+}
+
+.animate-fade-in {
+  opacity: 0;
+  animation: fade-in var(--duration-medium) ease-in-out forwards;
+}
+
+.animate-fade-in-up {
+  opacity: 0;
+  animation: fade-in-up var(--duration-medium) ease-in-out forwards;
+}
+
+.animate-grow {
+  transform: scale(0);
+  animation: grow var(--duration-fast) ease-in-out forwards;
+}
+
+/* TODO: to move to the hero component ( specific to the gif and logo)*/
+
+.animate-slide-up-diagonal {
+  opacity: 0;
+  animation: slide-up-diagonal var(--duration-medium) ease-in-out forwards;
+}
+
+.delay-initial {
+  animation-delay: var(--delay-initial);
+}
+.delay-mid {
+  animation-delay: var(--delay-mid);
+}
+.delay-late {
+  animation-delay: var(--delay-late);
+}
