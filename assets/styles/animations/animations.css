@@ -1,11 +1,3 @@
-:root {
-  --duration-fast: 0.8s;
-  --duration-medium: 1s;
-  --delay-initial: var(--duration-fast);
-  --delay-mid: calc(var(--delay-initial) + var(--duration-medium));
-  --delay-late: calc(var(--delay-mid) + var(--duration-medium));
-}
-
 @keyframes fade-in {
   from {
     opacity: 0;
@@ -91,33 +83,4 @@
       opacity: 1;
     }
   }
-}
-.animate-fade-in {
-  opacity: 0;
-  animation: fade-in var(--duration-medium) ease-in-out forwards;
-}
-
-.animate-fade-in-up {
-  opacity: 0;
-  animation: fade-in-up var(--duration-medium) ease-in-out forwards;
-}
-
-.animate-grow {
-  transform: scale(0);
-  animation: grow var(--duration-fast) ease-in-out forwards;
-}
-
-.animate-slide-up-diagonal {
-  opacity: 0;
-  animation: slide-up-diagonal var(--duration-medium) cubic-bezier(0.18, -0.01, 0.11, 0.98) forwards;
-}
-
-.delay-initial {
-  animation-delay: var(--delay-initial);
-}
-.delay-mid {
-  animation-delay: var(--delay-mid);
-}
-.delay-late {
-  animation-delay: var(--delay-late);
 }

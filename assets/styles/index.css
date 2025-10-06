@@ -2,4 +2,6 @@
 
 @import './common.css';
 
-@import './animate.css';
+@import './animations/tokens.css';
+@import './animations/animations.css';
+@import './animations/utilities.css';

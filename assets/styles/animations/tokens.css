@@ -1,0 +1,7 @@
+:root {
+  --duration-fast: 0.8s;
+  --duration-medium: 1s;
+  --delay-initial: var(--duration-fast);
+  --delay-mid: calc(var(--delay-initial) + var(--duration-medium));
+  --delay-late: calc(var(--delay-mid) + var(--duration-medium));
+}
