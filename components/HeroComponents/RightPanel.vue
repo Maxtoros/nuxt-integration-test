@@ -23,8 +23,8 @@
 }
 
 .hero-title {
-  font-size: 3.5rem;
-  font-weight: 800;
+  font-size: var(--text-3xl);
+  font-weight: var(--font-extrabold);
   margin-top: 0;
   margin-bottom: 2rem;
   line-height: 4rem;
@@ -32,19 +32,19 @@
 }
 
 .hero-description {
-  font-family: IBM Plex Sans;
-  font-size: 1.125rem;
-  font-weight: 400;
+  font-family: var(--font-ibm);
+  font-size: var(--text-lg);
+  font-weight: var(--font-normal);
   margin-bottom: 5.8125rem;
   line-height: 2rem;
   letter-spacing: 0px;
 }
 
 .cta-button {
-  background-color: #009efe;
+  background-color: var(--color-secondary);
   color: white;
   border: none;
-  font-size: 1rem;
+  font-size: var(--text-base);
   cursor: pointer;
   border-radius: 0.25rem;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -55,9 +55,9 @@
   padding: 24px 32px;
   margin-bottom: 24px;
 
-  font-family: Lato;
-  font-weight: 700;
-  font-size: .875rem;
+  font-family: var(--font-lato);
+  font-weight: var(--font-bold);
+  font-size: var(--text-sm);
   line-height: 100%;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -79,7 +79,7 @@
 }
 
 .icon-font {
-  font-family: 'JUS MUNDI FONT';
+  font-family: var(--font-icons);
 }
 
 .icon-chevron-right:before {
@@ -95,7 +95,7 @@
 
 @media (max-width: 768px) {
   .hero-title {
-    font-size: 1.5rem;
+    font-size: var(--text-xl);
     line-height: 2rem;
   }
 }

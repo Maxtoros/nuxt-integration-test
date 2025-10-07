@@ -14,7 +14,7 @@
 .hero-bottom:before {
     content: '';
     height: 1.5rem;
-    border-left: solid 2px #6ad300;
+    border-left: solid 2px var(--color-green-separator);
     position: absolute;
     left: 0;
     top: 50%;
@@ -32,7 +32,7 @@
     width: 40px;
     height: 2px;
     z-index: 1;
-    background-color: #6ad300;
+    background-color: var(--color-green-separator);
     transform: rotate(45deg);
     transform-origin: bottom right;
     margin: 0 65px;

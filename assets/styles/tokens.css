@@ -1,0 +1,29 @@
+:root {
+  /* fonts */
+  --font-larken: 'Larken', serif;
+  --font-lato: 'Lato', sans-serif;
+  --font-ibm: 'IBM Plex Sans', sans-serif;
+  --font-icons: 'JUS MUNDI FONT';
+
+  /* font sizes */
+  --text-xxs: 0.625rem;
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.5rem;
+  --text-2xl: 2rem;
+  --text-3xl: 3.5rem;
+
+  /* font-weights */
+  --font-light: 300;
+  --font-normal: 400;
+  --font-bold: 700;
+  --font-extrabold: 800;
+
+  /* colors */
+  --color-main: #2c2b2e;
+  --color-white: #ffffff;
+  --color-secondary: #009efe;
+  --color-green-separator: #6ad300;
+}

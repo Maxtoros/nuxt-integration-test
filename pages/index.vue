@@ -19,7 +19,7 @@ useSeoMeta({
 
 <style lang="css" scoped>
 .landing-page {
-  font-family: Larken, sans-serif;
-  color: #2c2b2e;
+  font-family: var(--font-larken);
+  color: var(--color-main);
 }
 </style>

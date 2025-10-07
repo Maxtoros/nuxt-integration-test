@@ -25,9 +25,9 @@
 }
 
 .why-title {
-  font-family: Larken;
-  font-weight: 800;
-  font-size: 3.5rem;
+  font-family: var(--font-larken);
+  font-weight: var(--font-extrabold);
+  font-size: var(--text-3xl);
   line-height: 4rem;
   letter-spacing: -1px;
   text-align: center;
@@ -38,7 +38,7 @@
 .why-title:after {
   content: '';
   width: 1.5rem;
-  border-bottom: solid 2px #6ad300;
+  border-bottom: solid 2px var(--color-green-separator);
   position: absolute;
   left: 0;
   top: 50%;
@@ -48,7 +48,7 @@
 .why-title:before {
   content: '';
   width: 1.5rem;
-  border-bottom: solid 2px #6ad300;
+  border-bottom: solid 2px var(--color-green-separator);
   position: absolute;
   right: 0;
   top: 50%;
@@ -59,9 +59,9 @@
   max-width: 800px;
   margin: 0 auto;
   margin-top: 2rem;
-  font-family: IBM Plex Sans;
-  font-weight: 400;
-  font-size: 1.125rem;
+  font-family: var(--font-ibm);
+  font-weight: var(--font-normal);
+  font-size: var(--text-lg);
   line-height: 2rem;
   letter-spacing: 0px;
   text-align: center;
@@ -69,7 +69,7 @@
 
 @media (max-width: 768px) {
   .why-title {
-    font-size: 1.5rem;
+    font-size: var(--text-xl);
   }
 }
 </style>

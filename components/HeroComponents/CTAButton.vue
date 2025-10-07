@@ -20,7 +20,7 @@
 .top-right:before {
     content: '';
     width: 1.5rem;
-    border-bottom: solid 2px #6ad300;
+    border-bottom: solid 2px var(--color-green-separator);
     position: absolute;
     left: 0;
     top: 50%;
@@ -30,13 +30,13 @@
 
 .nav-button {
     background: white;
-    color: #2C2B2E;
+    color: var(--color-main);
     border: none;
     cursor: pointer;
     box-shadow: 0px 8px 32px 0px #254F6D3D;
-    font-family: Lato;
-    font-weight: 700;
-    font-size: .875rem;
+    font-family: var(--font-lato);
+    font-weight: var(--font-bold);
+    font-size: var(--text-sm);
     line-height: 100%;
     letter-spacing: .125rem;
     text-transform: uppercase;
@@ -52,7 +52,7 @@
 
 @media (max-width: 768px) {
     .nav-button {
-        font-size: 0.625rem;
+        font-size: var(--text-xxs);
     }
 
     .top-right {

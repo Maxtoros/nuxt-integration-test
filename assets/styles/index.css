@@ -4,6 +4,8 @@
 
 @import './base.css';
 
+@import './tokens.css';
+
 @import './animations/tokens.css';
 @import './animations/animations.css';
 @import './animations/utilities.css';

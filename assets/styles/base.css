@@ -1,5 +1,5 @@
 body {
   font-family: 'Larken', 'IBM Plex Sans', 'Lato', sans-serif;
-  color: #2c2b2e;
+  color: var(--color-main);
   margin: 8px 0;
 }

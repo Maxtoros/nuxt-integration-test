@@ -37,10 +37,10 @@
   max-width: 800px;
   margin: 0 auto 1rem;
 
-  font-family: Larken;
+  font-family: var(--font-larken);
   font-style: italic;
-  font-weight: 400;
-  font-size: 1rem;
+  font-weight: var(--font-normal);
+  font-size: var(--text-base);
   line-height: 2rem;
   letter-spacing: 0px;
   text-align: justify;
@@ -51,25 +51,25 @@
 
 .quote-mark {
   color: #0070f3;
-  font-size: 2rem;
+  font-size: var(--text-2xl);
   font-style: normal;
 }
 
 .quote-source {
-  color: #2c2b2e;
+  color: var(--color-main);
   margin-bottom: 1.5rem;
-  font-family: IBM Plex Sans;
-  font-weight: 400;
-  font-size: 1rem;
+  font-family: var(--font-ibm);
+  font-weight: var(--font-normal);
+  font-size: var(--text-base);
   line-height: 1.5rem;
   letter-spacing: 0px;
   text-align: center;
 }
 
 .quote-link {
-  font-family: Lato;
-  font-weight: 400;
-  font-size: 0.75rem;
+  font-family: var(--font-lato);
+  font-weight: var(--font-normal);
+  font-size: var(--text-xs);
   line-height: 1rem;
   letter-spacing: 2px;
   text-align: center;
@@ -77,7 +77,7 @@
   text-decoration: underline;
   text-decoration-style: solid;
   text-decoration-thickness: 0%;
-  color: #2c2b2e;
+  color: var(--color-main);
 }
 
 .icon {
@@ -104,7 +104,7 @@
   }
 
   .quote-text {
-    font-size: 1rem;
+    font-size: var(--text-base);
   }
 }
 </style>
