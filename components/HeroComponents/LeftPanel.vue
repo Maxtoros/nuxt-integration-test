@@ -1,7 +1,11 @@
 <template>
   <div class="hero-left col-6">
     <div class="container-logo-icc animate-grow">
-      <NuxtImg src="/images/logo_icc.svg" alt="ICC Logo" class="logo logo-icc animate-fade-in delay-initial" />
+      <NuxtImg
+        src="/images/logo_icc.svg"
+        alt="ICC Logo"
+        class="logo logo-icc animate-fade-in delay-initial"
+      />
     </div>
 
     <div class="jm-group">
@@ -10,7 +14,7 @@
       </div>
 
       <video autoplay muted loop playsinline class="logo-animated animate-fade-in delay-mid">
-        <source src="/animations/case_bg.mp4" type="video/mp4">
+        <source src="/animations/case_bg.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
     </div>
@@ -44,7 +48,6 @@
   height: 10.3246rem;
 }
 
-
 .logo {
   margin: 10px auto;
   display: block;
@@ -77,10 +80,9 @@
   justify-content: center;
 }
 
-.jm-container>img {
+.jm-container > img {
   width: 6.73rem;
 }
-
 
 @media (max-width: 1024px) {
   .hero-left {
@@ -92,7 +94,6 @@
     height: 18rem;
     top: -90px;
   }
-
 
   .logo-icc {
     width: 12rem;
@@ -116,10 +117,9 @@
     width: 8rem;
   }
 
-  .jm-container>img {
+  .jm-container > img {
     width: 5.73rem;
   }
-
 }
 
 @media (max-width: 768px) {
@@ -156,9 +156,8 @@
     position: relative;
   }
 
-  .jm-container>img {
+  .jm-container > img {
     width: 4.73rem;
   }
-
 }
 </style>

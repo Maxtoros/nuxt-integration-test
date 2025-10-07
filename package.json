@@ -9,7 +9,7 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "prepare": "husky",
-    "format": "prettier --write pages/",
+    "format": "prettier --write pages/ components/",
     "lint-staged": "lint-staged"
   },
   "dependencies": {
