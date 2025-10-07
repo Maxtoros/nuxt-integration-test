@@ -1,84 +1,94 @@
+/* Larken Font Family */
 @font-face {
   font-family: 'Larken';
   src:
-    url('~/public/fonts/Larken-Bold.woff2') format('woff2'),
-    url('~/public/fonts/Larken-Bold.woff') format('woff');
+    url('/fonts/Larken-Light.woff2') format('woff2'),
+    url('/fonts/Larken-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Larken';
+  src:
+    url('/fonts/Larken-LightItalic.woff2') format('woff2'),
+    url('/fonts/Larken-LightItalic.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Larken';
+  src:
+    url('/fonts/Larken-Regular.woff2') format('woff2'),
+    url('/fonts/Larken-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Larken';
+  src:
+    url('/fonts/Larken-Italic.woff2') format('woff2'),
+    url('/fonts/Larken-Italic.woff') format('woff');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Larken';
+  src:
+    url('/fonts/Larken-Bold.woff2') format('woff2'),
+    url('/fonts/Larken-Bold.woff') format('woff');
   font-weight: 700;
   font-style: normal;
 }
+
 @font-face {
   font-family: 'Larken';
   src:
-    url('~/public/fonts/Larken-BoldItalic.woff2') format('woff2'),
-    url('~/public/fonts/Larken-BoldItalic.woff') format('woff');
+    url('/fonts/Larken-BoldItalic.woff2') format('woff2'),
+    url('/fonts/Larken-BoldItalic.woff') format('woff');
   font-weight: 700;
   font-style: italic;
 }
+
 @font-face {
   font-family: 'Larken';
   src:
-    url('~/public/fonts/Larken-ExtraBold.woff2') format('woff2'),
-    url('~/public/fonts/Larken-ExtraBold.woff') format('woff');
+    url('/fonts/Larken-ExtraBold.woff2') format('woff2'),
+    url('/fonts/Larken-ExtraBold.woff') format('woff');
   font-weight: 800;
   font-style: normal;
 }
-@font-face {
-  font-family: 'Larken';
-  src:
-    url('~/public/fonts/Larken-Italic.woff2') format('woff2'),
-    url('~/public/fonts/Larken-Italic.woff') format('woff');
-  font-weight: 400;
-  font-style: italic;
-}
-@font-face {
-  font-family: 'Larken';
-  src:
-    url('~/public/fonts/Larken-Regular.woff2') format('woff2'),
-    url('~/public/fonts/Larken-Regular.woff') format('woff');
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Larken';
-  src:
-    url('~/public/fonts/Larken-Light.woff2') format('woff2'),
-    url('~/public/fonts/Larken-Light.woff') format('woff');
-  font-weight: 300;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Larken';
-  src:
-    url('~/public/fonts/Larken-LightItalic.woff2') format('woff2'),
-    url('~/public/fonts/Larken-LightItalic.woff') format('woff');
-  font-weight: 300;
-  font-style: italic;
-}
 
+/* Lato Font Family */
 @font-face {
   font-family: 'Lato';
-  src: url('~/public/fonts/Lato-Regular.ttf') format('truetype');
+  src: url('/fonts/Lato-Regular.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Lato';
-  src: url('~/public/fonts/Lato-Bold.ttf') format('truetype');
+  src: url('/fonts/Lato-Bold.ttf') format('truetype');
   font-weight: 700;
   font-style: normal;
 }
 
+/* IBM Plex Sans */
 @font-face {
   font-family: 'IBM Plex Sans';
-  src: url('~/public/fonts/IBMPlexSans-Regular.ttf') format('truetype');
+  src: url('/fonts/IBMPlexSans-Regular.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
 }
 
+/* Jus Mundi Icons */
 @font-face {
   font-family: 'JUS MUNDI FONT';
-  src: url('~/public/fonts/icons.otf') format('opentype');
+  src: url('/fonts/icons.otf') format('opentype');
   font-weight: 400;
   font-style: normal;
 }

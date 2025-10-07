@@ -2,6 +2,8 @@
 
 @import './layout.css';
 
+@import './base.css';
+
 @import './animations/tokens.css';
 @import './animations/animations.css';
 @import './animations/utilities.css';
